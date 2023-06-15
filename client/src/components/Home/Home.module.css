@@ -1,0 +1,25 @@
+.gridContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 6fr;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.paginado{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
